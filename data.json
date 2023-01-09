@@ -11,10 +11,15 @@
             "content":"我是呆呆獸",
             "img":"https://th.bing.com/th/id/OIP.GbPo8-cPMLUi8uqTOZuccAHaF0?pid=ImgDet&rs=1"
         }
+        "可達鴨":{
+            "name":"可達鴨",
+            "content":"hahhahah",
+            "img":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftoday.line.me%2Ftw%2Fv2%2Farticle%2FvXlLRY8&psig=AOvVaw2T0TwcJgYPEIMkLky13LgC&ust=1673369354378000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjn5-D4uvwCFQAAAAAdAAAAABAE"
+        }
     },
     "火系":{
-        "噴火龍":{
-            "name":"噴火龍",
+        "小火龍":{
+            "name":"小火龍",
             "content":"hi",
             "img":"https://th.bing.com/th/id/R.8003f15bb8efdd0a1e86f8927bcf8a95?rik=jN%2bkshKomBHjrQ&pid=ImgRaw&r=0"
         }
