@@ -1,0 +1,33 @@
+{
+    "水系":{
+        "傑尼龜":{
+            "name":"傑尼龜",
+            "content":"hahhahah",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/5794f0251b1180998d72d1f8568239620ff5279c.png"
+        },
+        "呆呆獸":
+        {
+            "name":"呆呆獸",
+            "content":"我是呆呆獸",
+            "img":"https://th.bing.com/th/id/OIP.GbPo8-cPMLUi8uqTOZuccAHaF0?pid=ImgDet&rs=1"
+        }
+    },
+    "火系":{
+        "噴火龍":{
+            "name":"噴火龍",
+            "content":"hi",
+            "img":"https://th.bing.com/th/id/R.8003f15bb8efdd0a1e86f8927bcf8a95?rik=jN%2bkshKomBHjrQ&pid=ImgRaw&r=0"
+        }
+    },
+    "地系":{
+    },
+    "草系":{
+
+    },
+    "電系":{
+
+    },
+    "一般系":{
+
+    }
+}

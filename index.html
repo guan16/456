@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>期中考報告</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <style>
+        header {
+            background-color: sandybrown;
+            line-height: 4;
+            width: 1200;
+            text-align: center
+        }
+
+        article {
+            background-color: antiquewhite;
+            line-height: 8;
+            width: 1200;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            line-height: 5;
+            column-width: 10;
+            text-align: center;
+        }
+
+        footer {
+            background-color: sandybrown;
+            line-height: 4;
+        }
+
+        body {
+            min-height: 90vh;
+        }
+
+        .item {
+            width: 210px;
+            height: fit-content;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</html>
+
+<body>
+    <header>
+        <b>神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡( ε:)神奇寶貝･*･:≡(
+            ε:)神奇寶貝･*･:≡( ε:)</b>
+        </header>
+        <div style="height:fit-content;text-align: center;">
+            <a href="index.html">回首頁</a>
+        </div>
+    <div style="position: relative;left:20%;width:fit-content;">
+        <div id="menu" style="width: 100%; display: grid; grid-template-columns: repeat(3,250px);">
+    </div>
+
+    </div>
+    </div>
+    <script>
+        var data;
+        $(document).ready(function () {
+            nowClass = null
+            $.ajax({
+                type: "GET",
+                url: "/data.json",
+                data: {},
+                dataType: "json",
+                success: function (response) {
+                    console.log(response);
+                    data = response
+                    for (var d in response) {
+                        console.log(d["menu_img"]);
+                        $('#menu').append(
+                            `
+                            <div class="item">
+                                <img src="pokemon_ball.png" style='width:200px'>
+                                <button class="class-btn  btn btn-primary">${d}</button>
+                            </div>
+                            `
+                        )
+                    }
+                    $(".class-btn").click(function (e) {
+                        e.preventDefault();
+                        title = $(this).html()
+                        nowClass = title
+                        $('#menu').html("")
+                        for (var p in response[title]) {
+                            $('#menu').append(
+                                `
+                            <div class="item">
+                                <img src="${response[title][p]["img"]}" style='width:200px'>
+                                <div class="pokemon-title">${response[title][p]["name"]}</div>
+                                <button class="pokemon-btn btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">haha</button>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">${response[title][p]["name"]}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ${response[title][p]["content"]}
+        <img src="${response[title][p]["img"]}" style='width:200px'></img>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+                            </div>
+                            `
+                            )
+                        }
+                        $('.pokemon-btn').click(function (e) {
+                            e.preventDefault();
+                            title = $(this).parent().children('.pokemon-title').html()
+                            $(".modal-title").html(title)
+                            $(".modal-body").html(response[nowClass][title]["content"])
+                            $('.modal-body').append(`<img src="${response[nowClass][title]["img"]}" style='width:200px'></img>`)
+                        });
+                    });
+                }
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>
