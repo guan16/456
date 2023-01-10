@@ -2,51 +2,115 @@
     "水系":{
         "傑尼龜":{
             "name":"傑尼龜",
-            "content":"hahhahah",
+            "content":"我圓潤的外形和表面的溝槽會減少水的阻力",
             "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/5794f0251b1180998d72d1f8568239620ff5279c.png"
         },
         "呆呆獸":
         {
             "name":"呆呆獸",
-            "content":"我是呆呆獸",
-            "img":"https://th.bing.com/th/id/OIP.GbPo8-cPMLUi8uqTOZuccAHaF0?pid=ImgDet&rs=1"
+            "content":"我打呵欠時就會開始下雨",
+            "img":"https://local.pokemon.jp/img/p/pokemon/4b828b4fcf02dfd2d9a14ca5e0f4a896.png"
         },
         "可達鴨":
         {
             "name":"可達鴨",
-            "content":"hahhahah",
-            "img":"https://obs.line-scdn.net/0hdQoFivxFO35SPy82OedEKWppNw9hWSF3cF8nSCBsYkwtE3kqagpoHXNsMVJ2WnosclF2ECA_Mh12XH4oaA/w1200"
+            "content":"我喜歡發呆",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/0783062d0d860b8ae7d8e859241a700359c4d981.png"
         }
     },
-    "火系":
-    {
+    "火系":{
         "小火龍":{
             "name":"小火龍",
-            "content":"hi",
-            "img":"https://th.bing.com/th/id/R.8003f15bb8efdd0a1e86f8927bcf8a95?rik=jN%2bkshKomBHjrQ&pid=ImgRaw&r=0"
+            "content":"我尾巴會冒煙",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/d0ee81f16175c97770192fb691fdda8da1f4f349.png"
         },
         "六尾":
         {
             "name":"六尾",
-            "content":"hi",
-            "img":"https://th.bing.com/th/id/R.8003f15bb8efdd0a1e86f8927bcf8a95?rik=jN%2bkshKomBHjrQ&pid=ImgRaw&r=0"
+            "content":"長年在阿羅拉地區萬年積雪的山上生活，使得六尾擁有了冰的能力。",
+            "img":"https://local.pokemon.jp/img/p/pokemon/aef6e8c4573c773ee29493b0be83dc30.png"
         },
         "小火馬":
         {
             "name":"小火馬",
-            "content":"hi",
-            "img":"https://th.bing.com/th/id/R.8003f15bb8efdd0a1e86f8927bcf8a95?rik=jN%2bkshKomBHjrQ&pid=ImgRaw&r=0"
+            "content":"我會治癒傷口",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/dacab2be1777c14ed7da12824dd85c2cdbd2ebf9.png"
         }
     },
     "地系":{
+        "地鼠":{
+            "name":"地鼠",
+            "content":"我頭上長出了鋼鬍鬚",
+            "img":"https://pansci.asia/wp-content/uploads/2016/11/60addad93b4dd538a63f2534a06d4a73-560x325.jpg"
+        },
+        "卡拉卡拉":
+        {
+            "name":"卡拉卡拉",
+            "content":"思念死去的母親，會在夜裡大聲哭叫，導致自己被天敵禿鷹娜發現",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/6c44a0ccb922bbb4345214f3fa0b9436a03c11f2.png"
+        },
+        "穿山鼠":
+        {
+            "name":"穿山鼠",
+            "content":"在逃離火山爆發的過程中移居到了雪山上。冰之甲殼有著不遜於鋼鐵的硬度。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/f5fcf7a292a180320138ace7235f8a2c16f6594a.png"
+        }
     },
     "草系":{
-
+        " 妙蛙種子":{
+            "name":" 妙蛙種子",
+            "content":"在沐浴了充足的陽光之後，牠背上的種子就會成長茁壯",
+            "img":"https://i03piccdn.sogoucdn.com/c82932ff4d9f0966"
+        },
+        "菊草葉":
+        {
+            "name":"菊草葉",
+            "content":"揮舞葉子威嚇對手，但因為葉子上會飄散出甜甜的香氣，所以雙方都會變得心平氣和下來。",
+            "img":"https://1.bp.blogspot.com/-dF_VvxoeiEE/WJxMnQBVR3I/AAAAAAAABpg/Ls9ycDe7zBoey8uZ70UeVUcsk-Q-_eHkgCEw/s1600/d9a2803a6ef893713a2dd4383435a0be1480400768.png"
+        },
+        "走路草":
+        {
+            "name":"走路草",
+            "content":"沐浴月光就會開始活動。為了四處散播種子，會在夜晚到處走動。",
+            "img":"https://p6.itc.cn/images01/20211002/c4c6e744c426482da5969b6b765196a1.png"
+        }
     },
     "電系":{
-
+        "皮卡丘":{
+            "name":"皮卡丘",
+            "content":"越是能製造出強大電流的皮卡丘，臉頰上的囊就越柔軟，同時也越有伸展性。",
+            "img":"https://image.ruten.com.tw/g1/8/5f/69/21309199705961_969.jpg"
+        },
+        "正電拍拍":
+        {
+            "name":"正電拍拍",
+            "content":"總是在為夥伴加油的寶可夢。當夥伴努力加油的時候，牠會讓身體短路，發出劈哩啪啦的火花聲來表達自己的喜悅。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/f82fd557ce114e76004cbf6114660cb5908222c7.png"
+        },
+        "負電拍拍":
+        {
+            "name":"負電拍拍",
+            "content":"比起自己來，為夥伴加油更重要。會讓體內發出的電流短路，一邊發出華麗的火花一邊為夥伴加油。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/317110bc394b29a1b4e783f000a3150ca54af50d.png"
+        }
     },
     "一般系":{
-
+        "伊布":{
+            "name":"伊布",
+            "content":"伊布擁有著能夠為了適應周遭的環境而改變身體構造的能力。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/1fab9d9b86c9071e3f10c14b7869e3ec338f1429.png"
+        },
+        "卡比獸":
+        {
+            "name":"卡比獸",
+            "content":"每天不吃下４００公斤的食物絕不會善罷甘休。吃飽了就會開始睡覺。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/a42f1e83fdb6809384f2461670a1d81e227df05c.png"
+        },
+        "捲捲耳":
+        {
+            "name":"捲捲耳",
+            "content":"手腳的力量很弱，但如果使勁伸長緊緊捲起的耳朵，就連大岩石也能粉碎。",
+            "img":"https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/3c74d09fc5c77d453e8267cce72d7263a16fee40.png"
+        }
     }
 }
